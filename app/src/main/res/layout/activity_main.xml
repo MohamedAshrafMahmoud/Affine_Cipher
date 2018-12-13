@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/plaintext"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Entre plain text"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/M"
+
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="M"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/Key"
+
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Key"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/N"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="n"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorPrimary"
+             android:prompt="@string/country_prompt" />
+
+
+        <EditText
+            android:id="@+id/newlang"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="the new language"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:onClick="Encrypt"
+            android:background="@color/colorPrimaryDark"
+            android:text="Encrypt"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/newcipher"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="cypher text is"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/ciphertext"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Entre cypher text"
+            android:textColor="#000"
+            android:textColorHint="#8c8c8c"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="Deccrypt"
+            android:text="Deccrypt"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/newplaintext"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:hint="plain text is"
+            android:textColor="#000"
+            android:layout_marginBottom="20dp"
+            android:textColorHint="#8c8c8c"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
